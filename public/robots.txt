@@ -4,6 +4,7 @@
 User-agent: *
 Allow: /
 Disallow: /submit
+Crawl-delay: 1
 
 # Sitemaps
 Sitemap: https://vault-50.co/sitemap.xml
@@ -57,7 +58,3 @@ Allow: /
 # Common Crawl
 User-agent: CCBot
 Allow: /
-
-# Crawl-delay for aggressive bots
-User-agent: *
-Crawl-delay: 1
