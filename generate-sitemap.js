@@ -30,7 +30,7 @@ async function generateSitemap() {
   // ── Generate sitemap.xml ──────────────────────────────────
 
   const staticPages = [
-    { url: '/', priority: '1.0', changefreq: 'daily' },
+    { url: '', priority: '1.0', changefreq: 'daily' },
     { url: '/browse', priority: '0.9', changefreq: 'weekly' },
     { url: '/blog', priority: '0.9', changefreq: 'weekly' },
     { url: '/threads', priority: '0.9', changefreq: 'weekly' },
